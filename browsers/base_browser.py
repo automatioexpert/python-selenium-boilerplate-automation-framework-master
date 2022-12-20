@@ -1,6 +1,7 @@
 """This module contains a base class implementation for a browser."""
 import logging
 
+
 from selenium.webdriver.remote.webdriver import WebDriver
 
 from settings import LOGGING_LEVEL, set_global_driver
